@@ -1,5 +1,5 @@
 <?php
-    // Inclui o arquivo protect.php
+    // Inclui o arquivo protect-adm.php
     include('protect-adm.php');
 
     //Se não houver uma sessão, iniciar sessão
