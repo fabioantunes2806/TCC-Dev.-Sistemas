@@ -16,7 +16,7 @@
     if ($consulta->rowCount() == 1){
         echo"E-mail já cadastrado";
     }else{
-        $stmt = $pdo->prepare("insert into tbuser values(null, '$emailuser', '$nome','$senhauser', null)");
+        $stmt = $pdo->prepare("insert into tbuser values(null, '$emailuser', '$nome','$senhauser', 1)");
         $stmt ->execute();
     } 
 
